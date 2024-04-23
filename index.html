@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Output 1</title>
+    <style>
+        body {
+            font-family: "Arial";
+        }
+
+        *{
+            text-align: center;
+            align-items: center;
+            padding: 5px;
+         }
+         
+        table {
+            width: 400px;
+        }
+.container{
+    margin-left: 450px;
+    width: 600px;
+    box-shadow: 0 0 6px 0;
+    border-radius: 8px;
+
+}
+    </style>
+</head>
+<body>
+    <h1>PHP Output No. 1</h1>
+    
+    <fieldset>
+        <legend>This form uses GET request</legend>
+        <form action="rdirect.php" method="GET">
+        <table>
+        <tr>
+                <td>First Name</td>
+                <td>
+                    <input type="text" name="fname" placeholder="Enter First Name" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Middle Name</td>
+                <td>
+                    <input type="text" name="mname" placeholder="Enter Middle Name" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td>
+                    <input type="text" name="lname" placeholder="Enter Last Name" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>
+                    <input type="number" name="age" placeholder="Age" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <select id="gender" name="gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="email" name="email" placeholder="Enter Email" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                    <input type="text" name="address" placeholder="Enter Address" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Contact Number</td>
+                <td>
+                    <input type="number" name="cnumber" placeholder="Enter Contact Number" required />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Submit Data">
+                    <input type="reset" value="Cancel">
+                </td>
+            </tr>
+        </table>
+        </form>
+    </fieldset>
+    
+    <fieldset style="margin-top: 20px">
+        <legend>This form uses POST request</legend>
+        <form action="redirect.php" method="POST">
+        <table>
+        <tr>
+                <td>First Name</td>
+                <td>
+                    <input type="text" name="fname" placeholder="Enter First Name" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Middle Name</td>
+                <td>
+                    <input type="text" name="mname" placeholder="Enter Middle Name" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td>
+                    <input type="text" name="lname" placeholder="Enter Last Name" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>
+                    <input type="number" name="age" placeholder="Age" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <select id="gender" name="gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="email" name="email" placeholder="Enter Email" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                    <input type="text" name="address" placeholder="Enter Address" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Contact Number</td>
+                <td>
+                    <input type="number" name="cnumber" placeholder="Enter Contact Number" required />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Submit Data">
+                    <input type="reset" value="Cancel">
+                </td>
+            </tr>
+        </table>
+        </form>
+    </fieldset>
+
+</body>
+</html>
